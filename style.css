@@ -1,0 +1,39 @@
+.timeline-entry {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-date {
+  width: 150px;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.timeline-line {
+  width: 2px;
+  background-color: #000;
+  height: 100%;
+  margin-right: 20px;
+}
+.center-title {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.centered-list {
+  list-style-type: disc;
+  text-align: center;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.centered-list li {
+  display: list-item;
+  margin-bottom: 10px;
+}
