@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CV Layout</title>
   <style>
     body {
@@ -22,102 +22,61 @@
     }
 
     .cv-header {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-
-    .photo-section img {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 15px;
-}
-
-    .middle-info {
       text-align: center;
+      margin-bottom: 30px;
     }
 
-    .middle-info h1 {
-      font-size: 28px;
-      color: darkblue;
-      margin-bottom: 5px;
-    }
-
-    .middle-info h2 {
-      font-size: 20px;
-      color: darkblue;
-      margin: 0;
-    }
-
-    .contact-section {
-      margin-top: 20px;
-      direction: rtl;
-      text-align: right;
-    }
-
-    .contact-item {
-      font-size: 16px;
-      color: #555;
-      margin-bottom: 5px;
-    }
-
-    .separator {
-      border-top: 2px solid #ccc;
-      margin: 30px 0;
-    }
-
-    .objective-section, .experience-section {
-      margin-top: 30px;
-      padding: 20px;
-      background-color: #f9f9f9;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .objective-section h3,
-    .experience-section h3 {
-      font-size: 24px;
-      font-weight: bold;
-      color: #333;
+    .photo-section {
+      text-align: center;
       margin-bottom: 10px;
     }
 
-    .objective-section p,
-    .experience-section p,
-    .experience-section ul {
-      font-size: 16px;
+    .photo-section img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .middle-info h1 {
+      font-size: 26px;
+      margin-bottom: 5px;
+      color: darkblue;
+    }
+
+    .middle-info h2 {
+      font-size: 18px;
+      color: darkblue;
+    }
+
+    .contact-section {
+      text-align: center;
+      direction: rtl;
+      margin-top: 15px;
+    }
+
+    .contact-item {
+      font-size: 14px;
       color: #555;
-      line-height: 1.6;
-    }
-
-    .experience-section ul {
-      padding-left: 20px;
-    }
-
-    .experience-section .job {
-      margin-bottom: 20px;
+      margin: 3px 0;
     }
   </style>
 
-  <!-- Font Awesome for Icons -->
+  <!-- Font Awesome -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   />
 </head>
 <body>
-
   <div class="cv-container">
-    <!-- Header Section -->
+    <!-- Header -->
     <div class="cv-header">
       <div class="photo-section">
         <img src="your-photo.jpg" alt="Profile Picture" />
       </div>
       <div class="middle-info">
-        <h1  style="color: darkblue;">Amna Bibi</h1>
+        <h1>Amna Bibi</h1>
         <h2>Manager (International Relations)</h2>
       </div>
       <div class="contact-section">
@@ -126,7 +85,9 @@
         <div class="contact-item"><i class="fas fa-map-marker-alt"></i> 123 Main St 32, Islamabad</div>
       </div>
     </div>
-
+  </div>
+</body>
+</html>
         <!-- Personal Info -->
     <div class="personal-info">
       <p><strong>Nationality:</strong> Pakistani | 
