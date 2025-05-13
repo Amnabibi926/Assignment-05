@@ -1,83 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV Layout</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
+  <meta charset="UTF-8">
+  <title>Amna Bibi - Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+      background-color: #f9f9f9;
+    }
 
-  .cv-container {
-      width: 100%;
-      height: 100%;
-      background-color: #fff;
-      padding: 30px 20px;
-      box-sizing: border-box;
-    }
+    .profile-pic {
+      width: 150px;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+    }
 
-    .cv-header {
-      text-align: center;
-      margin-bottom: 30px;
-    }
+    .name {
+      font-size: 24px;
+      font-weight: bold;
+    }
 
-    .photo-section {
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-      .photo-section img {
-      width: 80px !important;
-      height: 80px !important;
-      border-radius: 50%;
-      object-fit: cover;
-      display: inline-block;
-    }
-    .middle-info h1 {
-      font-size: 26px;
-      margin-bottom: 5px;
-      color: darkblue;
-    }
-
-    .middle-info h2 {
-      font-size: 18px;
-      color: darkblue;
-    }
-
-    .contact-section {
-      text-align: center;
-      direction: rtl;
-      margin-top: 15px;
-    }
-
-    .contact-item {
-      font-size: 14px;
-      color: #555;
-      margin: 3px 0;
-    }
-  </style>
-
-  <!-- Font Awesome -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
+    .designation {
+      font-size: 18px;
+      color: #555;
+    }
+  </style>
 </head>
 <body>
-  <div class="cv-container">
-    <!-- Header -->
-    <div class="cv-header">
-      <div class="photo-section">
-        <img src="your-photo.jpg" alt="Profile Picture" />
-      </div>
-      <div class="middle-info">
-        <h1>Amna Bibi</h1>
-        <h2>Manager (International Relations)</h2>
-      </div>
+
+  <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
+
+  <div class="name">Amna Bibi</div>
+  <div class="designation">Manager (International Relations)</div>
+
+</body>
+</html>
       <div class="contact-section">
         <div class="contact-item"><i class="fas fa-envelope"></i> amnabibi123@gmail.com</div>
         <div class="contact-item"><i class="fas fa-phone"></i> 03242345890</div>
